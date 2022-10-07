@@ -107,6 +107,33 @@ header::before {
   text-transform: uppercase;
 }
 /*MEDIAS QUERYS*/
+
+@media only screen and (max-width: 479px) {
+  .title {
+    font-size: 4rem;
+  }
+
+  .characters {
+    flex-direction: row;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+  .species {
+    font-size: 1.3rem;
+  }
+  .status {
+    font-size: 1rem;
+  }
+  .container {
+    width: 100%;
+  }
+  .box {
+    width: 60%;
+  }
+}
+
 @media only screen and (min-width: 480px) and (max-width: 800px) {
   .container {
     width: 100%;
@@ -114,9 +141,12 @@ header::before {
   .box {
     width: 60%;
   }
+  .character {
+    width: auto;
+  }
 
   .name {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .species {
     font-size: 1.5rem;
@@ -133,7 +163,9 @@ header::before {
   .box {
     width: 45%;
   }
-
+  .character {
+    width: auto;
+  }
   .name {
     font-size: 2.5rem;
   }
@@ -151,7 +183,9 @@ header::before {
   .box {
     width: 45%;
   }
-
+  .character {
+    width: auto;
+  }
   .name {
     font-size: 2.5rem;
   }
@@ -165,6 +199,9 @@ header::before {
 @media only screen and (min-width: 1101px) and (max-width: 1280px) {
   .container {
     width: 100%;
+  }
+  .img-character {
+    width: 50%;
   }
   .name {
     font-size: 2.5rem;
@@ -180,6 +217,9 @@ header::before {
 @media only screen and (min-width: 1281px) and (max-width: 1440px) {
   .container {
     width: 100%;
+  }
+  .img-character {
+    width: 50%;
   }
   .name {
     font-size: 2.8rem;
